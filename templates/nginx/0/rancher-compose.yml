@@ -1,6 +1,6 @@
 version: '2'
 catalog:
-  name: "Nginx"
+  name: "nginx"
   version: "v1.0"
   description: "initialize"
 services:

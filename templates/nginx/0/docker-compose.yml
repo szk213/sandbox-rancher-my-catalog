@@ -9,6 +9,6 @@ services:
 #    image: nginx
 # Argsのテスト
     build:
-      context: ./
+      context: https://github.com/szk213/sandbox-rancher-my-catalog-dockerfile.git
       args:
         IMAGE_NAME: nginx:1.12.2

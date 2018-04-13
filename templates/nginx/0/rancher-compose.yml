@@ -8,9 +8,15 @@ catalog:
       label: ABC
       description: |
       type: enum   
-      options: # List of options if using type of `enum`
-        - Option 1
-        - Option 2
+      options: *testA
+#      options: # List of options if using type of `enum`
+#        - Option 1
+#        - Option 2
 services:
   nginx:
     scale: 1
+
+prop:
+- &testA
+  - Option 1
+  - Option 2

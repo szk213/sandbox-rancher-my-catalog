@@ -6,9 +6,9 @@ services:
     ports:
       - 80
     tty: true
-#    image: nginx
+    image: nginx
 # Argsのテスト
-    build:
-      context: https://github.com/szk213/sandbox-rancher-my-catalog-dockerfile.git
-      args:
-        IMAGE_NAME: nginx:1.12.2
+#    build:
+#      context: https://github.com/szk213/sandbox-rancher-my-catalog-dockerfile.git
+#      args:
+#        IMAGE_NAME: nginx:1.12.2

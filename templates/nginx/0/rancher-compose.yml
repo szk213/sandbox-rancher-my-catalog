@@ -3,6 +3,14 @@ catalog:
   name: "nginx"
   version: "v1.0"
   description: "initialize"
+  questions:
+    - variable: TEST
+      label: ABC
+      description: |
+      type: enum   
+      options: # List of options if using type of `enum`
+        - Option 1
+        - Option 2
 services:
   nginx:
     scale: 1

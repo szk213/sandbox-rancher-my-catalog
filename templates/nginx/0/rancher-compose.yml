@@ -18,5 +18,5 @@ services:
 
 prop:
 - &testA
-  - Option 1
-  - Option 2
+  - Option A
+  - Option B

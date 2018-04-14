@@ -8,7 +8,7 @@ catalog:
       label: ABC
       description: |
       type: enum   
-      options: *testA
+      options: ./test.yml
 #      options: # List of options if using type of `enum`
 #        - Option 1
 #        - Option 2
